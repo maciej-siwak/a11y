@@ -1,0 +1,23 @@
+{
+  "name": "a11y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "a11y": "playwright test --grep @a11y --project='Desktop Chrome'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.4",
+    "axe-html-reporter": "^2.2.3",
+    "axe-playwright": "^1.2.3"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.8.2",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
